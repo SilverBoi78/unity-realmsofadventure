@@ -32,7 +32,16 @@ public class playerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
-       
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveSpeed = 10f;
+        }
+        else
+        {
+            moveSpeed = 5f;
+        }
+
     }
 
     void FixedUpdate()
