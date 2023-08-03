@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class playerMovement : MonoBehaviour
 {
     
@@ -33,15 +34,23 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        //fix for diagonal movement faster than normal movement
+        if (movement.x != 0 && movement.y != 0)
+        {
+            moveSpeed = 4f;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift) && movement.x != 0 && movement.y != 0)
         {
             moveSpeed = 10f;
+        }
+        else if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveSpeed = 7f;
         }
         else
         {
             moveSpeed = 5f;
         }
-
     }
 
     void FixedUpdate()

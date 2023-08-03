@@ -13398,6 +13398,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1077575623}
+    - target: {fileID: 4486885920259160705, guid: 8e05de3340e36ec428bf1f29578253eb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 365251760}
     - target: {fileID: 4628812741714269322, guid: 8e05de3340e36ec428bf1f29578253eb, type: 3}
       propertyPath: m_Name
       value: Living Tree
