@@ -14690,6 +14690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cf5782105684a47af091a4a1c7a37d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1417553639}
 --- !u!1001 &1486681306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15112,6 +15113,10 @@ PrefabInstance:
     - target: {fileID: 4109187171481770628, guid: f410df1840b5f704f9ef3d7bb5158b4c, type: 3}
       propertyPath: m_Name
       value: Mole Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626893758677500068, guid: f410df1840b5f704f9ef3d7bb5158b4c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6360775153296656313, guid: f410df1840b5f704f9ef3d7bb5158b4c, type: 3}
       propertyPath: m_LocalPosition.x

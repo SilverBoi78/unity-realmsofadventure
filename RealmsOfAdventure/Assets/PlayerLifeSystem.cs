@@ -24,8 +24,5 @@ public class PlayerLifeSystem : MonoBehaviour
         }
     }
 
-    private void HandlePlayerDeath()
-    {
-        fadingScreenAnimator.StartFadeInAnimation();
-    }
+    public void HandlePlayerDeath() => fadingScreenAnimator.StartFadeInAnimation();
 }
