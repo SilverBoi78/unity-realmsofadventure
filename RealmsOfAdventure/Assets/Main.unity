@@ -12082,7 +12082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
-  fadingScreenAnimator: {fileID: 0}
+  fadingLife: {fileID: 1417553639}
+  fadingScreenAnimator: {fileID: 1417553641}
 --- !u!1001 &1397204510
 PrefabInstance:
   m_ObjectHideFlags: 0

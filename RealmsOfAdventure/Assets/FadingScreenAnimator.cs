@@ -17,6 +17,6 @@ public class FadingScreenAnimator : MonoBehaviour
 
     public void StartFadeInAnimation()
     {
-        animator.SetTrigger("FadeIn");
+        animator.SetFloat("FadeIn", 1f);
     }
 }

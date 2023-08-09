@@ -6,6 +6,7 @@ public class PlayerLifeSystem : MonoBehaviour
 {
     public int maxHealth = 3; // Set the maximum health
     private int currentHealth;
+    public Animator fadingLife;
 
     public FadingScreenAnimator fadingScreenAnimator;
 
@@ -24,5 +25,8 @@ public class PlayerLifeSystem : MonoBehaviour
         }
     }
 
-    public void HandlePlayerDeath() => fadingScreenAnimator.StartFadeInAnimation();
+    private void HandlePlayerDeath()
+    {
+        fadingLife.SetFloat("FadeIn", 1f);
+    }
 }
