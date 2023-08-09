@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 761544901708985866}
   - component: {fileID: 4626893758677500068}
   - component: {fileID: -1222887081972004225}
+  - component: {fileID: 6947475631297667578}
+  - component: {fileID: 3760090590776773795}
   m_Layer: 0
   m_Name: Mole Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +101,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -112,8 +114,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!61 &4626893758677500068
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -171,5 +173,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44f8d4d7340c1b141b38739cde36fea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 761544901708985866}
+  animator: {fileID: 3760090590776773795}
   player: {fileID: 0}
-  speed: 0
+  speed: 2
+  chaseRadius: 7
+--- !u!114 &6947475631297667578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109187171481770628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa35cc7e9d3bdd4ebd5ab1efbad0805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
+--- !u!95 &3760090590776773795
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109187171481770628}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 602d0f025cd394340b2e9ea4039ad280, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
