@@ -9,7 +9,7 @@ public class AIChase : MonoBehaviour
 
     Vector2 movement;
 
-    public GameObject player;
+    private GameObject player;
     public float speed;
     public float chaseRadius;
 
@@ -17,7 +17,7 @@ public class AIChase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.Find("hero-idle-front");
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class AIChase : MonoBehaviour
         distance = Vector2.Distance(transform.position, player.transform.position);
 
         if (distance <= chaseRadius)
-        {
+        {  
             Vector2 direction = player.transform.position - transform.position;
             movement.x = direction.x;
             movement.y = direction.y;
@@ -46,6 +46,7 @@ public class AIChase : MonoBehaviour
             {
                 transform.localScale = new Vector3(1, 1, 1);
             }
+            
         }
         
     }

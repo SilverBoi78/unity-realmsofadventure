@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1253693236930700412}
   m_Layer: 0
   m_Name: Living Tree
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 474296471843672566}
   animator: {fileID: 7363822335244918160}
-  player: {fileID: 0}
+  player: {fileID: 6270056327324583152, guid: 395443c946a24604e9f4c998e498958e, type: 3}
   speed: 2
   chaseRadius: 7
 --- !u!95 &7363822335244918160
