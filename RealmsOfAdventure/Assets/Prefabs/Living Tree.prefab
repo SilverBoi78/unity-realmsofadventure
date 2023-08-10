@@ -175,8 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 474296471843672566}
   animator: {fileID: 7363822335244918160}
-  player: {fileID: 6270056327324583152, guid: 395443c946a24604e9f4c998e498958e, type: 3}
-  speed: 2
+  speed: 1
   chaseRadius: 7
 --- !u!95 &7363822335244918160
 Animator:
