@@ -212,7 +212,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   fadingLife: {fileID: 0}
+  deathAnimation: {fileID: 0}
   fadingScreenAnimator: {fileID: 0}
+  heartImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &7159105975806929742
 GameObject:
   m_ObjectHideFlags: 0
