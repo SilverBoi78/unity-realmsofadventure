@@ -13,10 +13,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AIChase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoinCounter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EnemyAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenDoorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerLifeSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerLifeSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2TzF7Eortz3cwXi51NYIlFgg6Me" />
   <component name="ProjectViewState">
@@ -63,6 +63,9 @@
       <workItem from="1692039102769" duration="156000" />
       <workItem from="1692039384682" duration="64000" />
       <workItem from="1692039478440" duration="149000" />
+      <workItem from="1692041203897" duration="529000" />
+      <workItem from="1692041767839" duration="42000" />
+      <workItem from="1692041857020" duration="245000" />
     </task>
     <servers />
   </component>
