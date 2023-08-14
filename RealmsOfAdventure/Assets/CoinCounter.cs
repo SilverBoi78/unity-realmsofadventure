@@ -4,7 +4,11 @@ public class Coin : MonoBehaviour
 {
     public int coinValue = 1; // Value of the coin (e.g., 1)
     public GameObject mobsToDestroy; // Reference to the mobs that will be destroyed
-
+	public TileMapVisibility tileMapVisibility;
+	private void Start()
+	{
+		tileMapVisibility = GameObject.FindObjectOfType<TileMapVisibility>();
+	}
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -19,7 +23,7 @@ public class Coin : MonoBehaviour
             if (GameManager.Instance.AreAllCoinsCollected())
             {
                 // Destroy the mobs
-                Destroy(mobsToDestroy);
+                tileMapVisibility.HideTileMap();
 
                 // Perform any additional actions, like opening a door or transitioning to the next area
             }
