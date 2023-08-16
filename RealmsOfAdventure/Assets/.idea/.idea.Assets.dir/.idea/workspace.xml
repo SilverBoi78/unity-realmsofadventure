@@ -66,11 +66,27 @@
       <workItem from="1692041203897" duration="529000" />
       <workItem from="1692041767839" duration="42000" />
       <workItem from="1692041857020" duration="245000" />
+      <workItem from="1692211167614" duration="514000" />
+      <workItem from="1692211713320" duration="29000" />
+      <workItem from="1692211766648" duration="70000" />
+      <workItem from="1692211859442" duration="21000" />
+      <workItem from="1692212139679" duration="2667000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

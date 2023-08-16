@@ -23,7 +23,6 @@ public class Coin : MonoBehaviour
             if (GameManager.Instance.AreAllCoinsCollected())
             {
                 tileMapVisibility.HideTileMap();
-
                 // Perform any additional actions, like opening a door or transitioning to the next area
             }
 

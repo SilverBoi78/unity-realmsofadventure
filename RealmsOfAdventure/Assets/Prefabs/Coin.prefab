@@ -102,8 +102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinValue: 1
-  mobsToDestroy: {fileID: 0}
   tileMapVisibility: {fileID: 0}
+  nextLevel: {fileID: 0}
 --- !u!95 &3408927246380243954
 Animator:
   serializedVersion: 5
