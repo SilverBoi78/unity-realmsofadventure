@@ -22,7 +22,6 @@ public class Coin : MonoBehaviour
             // Check if all coins are collected
             if (GameManager.Instance.AreAllCoinsCollected())
             {
-                FindObjectOfType<CoinCountUI>().DoorOpen();
                 tileMapVisibility.HideTileMap();
 
                 // Perform any additional actions, like opening a door or transitioning to the next area

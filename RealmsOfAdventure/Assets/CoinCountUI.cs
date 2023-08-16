@@ -20,10 +20,9 @@ public class CoinCountUI : MonoBehaviour
         int totalCoins = GameManager.Instance.TotalCoins;
 
         coinText.text = "Coins: " + collectedCoins + " / " + totalCoins;
-    }
-    
-    public void DoorOpen()
-    {
-        coinText.text = "DOOR OPENED! PROCEED!";
+        if (collectedCoins == totalCoins)
+        {
+            coinText.text = "DOOR OPENED! PROCEED!";
+        }
     }
 }
