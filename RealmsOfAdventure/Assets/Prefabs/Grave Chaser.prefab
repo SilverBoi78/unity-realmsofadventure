@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7896554487664642582}
   animator: {fileID: 4756008160991507344}
-  speed: 10
+  speed: 5
   chaseRadius: 500
 --- !u!114 &9164030008761876198
 MonoBehaviour:
