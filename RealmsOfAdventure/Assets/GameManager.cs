@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
     public int totalCoins = 10;
     private int collectedCoins = 0;
 
+    public int CollectedCoins => collectedCoins;
+    public int TotalCoins => totalCoins;
+
     private void Awake()
     {
         if (Instance == null)

@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 public class TileMapVisibility : MonoBehaviour
 {
     public Tilemap tilemap;
-	public Collision2D collider;
+	public new Collision2D collider;
 
     private void Start()
     {

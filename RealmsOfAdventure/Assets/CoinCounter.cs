@@ -3,7 +3,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public int coinValue = 1; // Value of the coin (e.g., 1)
-    public GameObject mobsToDestroy; // Reference to the mobs that will be destroyed
+    
 	public TileMapVisibility tileMapVisibility;
 	private void Start()
 	{
@@ -22,11 +22,13 @@ public class Coin : MonoBehaviour
             // Check if all coins are collected
             if (GameManager.Instance.AreAllCoinsCollected())
             {
-                // Destroy the mobs
+                FindObjectOfType<CoinCountUI>().DoorOpen();
                 tileMapVisibility.HideTileMap();
 
                 // Perform any additional actions, like opening a door or transitioning to the next area
             }
+
+            FindObjectOfType<CoinCountUI>().UpdateCoinCountText();
         }
     }
 }
