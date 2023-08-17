@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Map2.unity
     guid: 7e7f1179d408b6944809e6e643ae3d2d
+  - enabled: 1
+    path: Assets/Credits.unity
+    guid: a161e2f2c5b7ac241842133ce77aac26
   m_configObjects: {}
