@@ -5,11 +5,18 @@ using UnityEngine;
 public class bullet : MonoBehaviour
 {
     public float lifetime = 5f;
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    public int damageAmount = 1;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
+            PlayerLifeSystem playerLifeSystem = collision.gameObject.GetComponent<PlayerLifeSystem>();
+            if (playerLifeSystem != null)
+            {
+                playerLifeSystem.TakeDamage(damageAmount);
+            }
         }
         else
         {
