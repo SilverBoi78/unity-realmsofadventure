@@ -9,4 +9,15 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void playCredits()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void exitGame()
+    {
+        Debug.Log("Quitting");
+        Application.Quit();
+    }
 }
