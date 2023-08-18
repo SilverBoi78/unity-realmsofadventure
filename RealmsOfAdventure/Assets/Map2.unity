@@ -1876,6 +1876,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5434456576538497438, guid: a0672e3c4a1749a41b5d6b06d385d190, type: 3}
+      propertyPath: nextSceneName
+      value: Credits
+      objectReference: {fileID: 0}
     - target: {fileID: 7066750515367841688, guid: a0672e3c4a1749a41b5d6b06d385d190, type: 3}
       propertyPath: m_Name
       value: NextRoom
