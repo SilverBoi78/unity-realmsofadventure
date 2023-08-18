@@ -477,6 +477,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 528836764187984174, guid: 395443c946a24604e9f4c998e498958e, type: 3}
+      propertyPath: orthographic size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4484330967342022742, guid: 395443c946a24604e9f4c998e498958e, type: 3}
       propertyPath: m_Name
       value: hero-idle-front

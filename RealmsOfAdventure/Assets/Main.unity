@@ -43702,6 +43702,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 528836764187984174, guid: 395443c946a24604e9f4c998e498958e, type: 3}
+      propertyPath: orthographic size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3289929472406379368, guid: 395443c946a24604e9f4c998e498958e, type: 3}
       propertyPath: moveSpeed
       value: 5
@@ -43730,6 +43734,10 @@ PrefabInstance:
       propertyPath: heartImages.Array.data[2]
       value: 
       objectReference: {fileID: 1327212137}
+    - target: {fileID: 7694072323381529009, guid: 395443c946a24604e9f4c998e498958e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8208221570305434070, guid: 395443c946a24604e9f4c998e498958e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.030844629
